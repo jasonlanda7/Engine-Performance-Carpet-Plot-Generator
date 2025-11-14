@@ -31,9 +31,9 @@ The program reads performance data from a structured **Excel file** containing I
 
 | File | Description |
 |------|--------------|
-| **`generateCarpetPlot.m`** | Core MATLAB function that reads data and generates the carpet plot |
-| **`example_data.xlsx`** | Example Excel file containing O/F, Isp, and Tc data (user-provided) |
-| **`output/carpet_plot.png`** | Example output plot (optional, generated after running script) |
+| **`generateCarpetPlotV1.m`** | Core MATLAB function that reads data and generates the carpet plot |
+| **`Carpet Plot Excel Template.xlsx`** | Example Excel file containing O/F, Isp, and Tc data (user-provided) |
+| **`CarpetPlot.png`** | Example output plot (optional, generated after running script) |
 
 ---
 
