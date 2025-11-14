@@ -62,15 +62,16 @@ To run the Combustion Chamber Carpet Plot Generator:
 5. Select your Excel data file when the file dialog appears (Excel format sample file "ExcelTemplate" provided in main repository page).
    Below is an example of the excel file template requested by the generator:
 
-![Example Bell Nozzle Plot](NozzleContourSample.png)
+   ![Sample Excel Template](carpet_plot_data_table.png)
    
 7. The program will:
+   - Read the performance data
+   - Detect Isp and Tc columns automatically
+   - Plot Isp vs Tc curves for all chamber pressures
+   - Connect points of equal O/F to form the carpet pattern
+8. View and save the results:
+   - The plot appears automatically
+   - You can export or save it using MATLAB’s built-in save tools
+   Below is an example of the excel file template requested by the generator:
 
-   Read the performance data
-
-   Detect Isp and Tc columns automatically
-
-   Plot Isp vs Tc curves for all chamber pressures
-
-   Connect points of equal O/F to form the carpet pattern
-8. 
+   ![Sample Carpet Plot](CarpetPlot.png)
